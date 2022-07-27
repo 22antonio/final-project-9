@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+
 * {
-  display: flex;
+  font-family: "Ibarra Real Nova", serif;
 }
