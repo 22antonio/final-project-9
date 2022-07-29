@@ -1,7 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
+/* Everything selector */
 * {
-  font-family: "Ibarra Real Nova", serif;
+  font-family: "Roboto Slab", serif;
+}
+
+nav {
+  background-color: #125688;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  background-color: red;
+  color: black;
+}
+
+.navLinks:hover {
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+}
+
+.hero-image {
+  height: 50vh;
+  width: 100%;
 }
 
 .fa {
