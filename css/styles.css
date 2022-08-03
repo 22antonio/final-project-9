@@ -32,12 +32,13 @@ nav {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 5px;
+  font-size: 15px;
+  width: 15px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 10px;
 }
 
 .fa:hover {
@@ -54,7 +55,14 @@ nav {
   color: white;
 }
 
-.facebook-icon {
-  height: 50px;
-  width: 50px;
+footer {
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(107, 9, 121, 1) 50%
+  );
+  color: white;
+  border-radius: 5px;
 }
